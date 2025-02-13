@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".NotificationsActivity">
+
+    <EditText
+        android:id="@+id/editTextTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Timer (in hours)" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/appNamesInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter App Names"
+        android:inputType="text"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonBlockNotifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block Notifications"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_marginTop="8dp" />
+
+    <!-- Add these TextViews to display timer remaining and blocked apps -->
+    <TextView
+        android:id="@+id/textViewTimerRemaining"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Timer Remaining: " />
+
+    <TextView
+        android:id="@+id/textViewBlockedApps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blocked Apps: " />
+
+</LinearLayout>

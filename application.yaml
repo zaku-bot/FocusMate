@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+weather:
+  api-key: "412c9ee7b56614547c9d7ea763e09a78"
+
+google-maps:
+  api-key: "AIzaSyA2CsoL1NfrNQh55YeP_5q2vsPa-26cw-k"

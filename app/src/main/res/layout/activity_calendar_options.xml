@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".CalendarOptionsActivity">
+
+    <Button
+        android:id="@+id/buttonRecentEvents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recent Events" />
+
+    <Button
+        android:id="@+id/buttonAddEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Event" />
+
+    <EditText
+        android:id="@+id/editTextEventSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Summary" />
+
+    <EditText
+        android:id="@+id/editTextEventStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Event Date (YYYY-MM-DDTHH:mm:ss.SSSZ)" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Result will be displayed here"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Proj5</string>
+    <string name="service_name">Project5</string>
+    <string name="web_client_id">306885313148-htlicfqibujeg5o9dlfvoaslc7l2v59o.apps.googleusercontent.com</string>
+    <string name="event_activity_label">Event Activity</string>
+    <string name="label_for_notifications_activity">Notifications Activity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="google_maps_key">AIzaSyB_9XtvsXrnmtPHUhadJnTNcC5GKDqsmyA</string>
+    <string name="open_ai_api_key">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</string>
+</resources>
